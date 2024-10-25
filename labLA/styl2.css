@@ -1,0 +1,125 @@
+body {
+  
+  background-image: linear-gradient(to right, rgba(255,128,0,0), rgba(255,128,0,0.5)); 
+}
+
+a:link, a:visited {
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.c1 {
+
+  padding-left: 100px;
+  padding-right: 100px;
+  border-style: dotted;
+  border-width: thick;
+  border-color: red;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image1 {
+  max-width: 25%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+
+.l1 {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.c23 {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.c2, .c3 {
+  flex: 1;
+  padding: 20xp;
+  border: 2px solid red;
+  border-radius: 8px;
+}
+
+h3{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  color: black;
+  font-size: 16px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  font-family: "Brush Script MT", "Lucida Handwriting", Cursive;
+}
+
+.c2{
+  display: flex;
+}
+
+.image2 {
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+h5{
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Times, Sans-serif;
+
+}
+
+.c44{
+  margin: auto;
+  max-width: 50%;
+}
+
+.image3{
+  max-width: 30%;
+  height: auto;
+  text-align: center;
+}
+
+.c4{
+  text-align: center;
+}
+
+footer{
+  margin-top: 20px;
+  text-align: center;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.5));
+}
